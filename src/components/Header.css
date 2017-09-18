@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  font-family: 'Mallanna', sans-serif;
+  color: #363131;
+  font-size: 18px;
+  list-style-type: none;
+  padding-top: 20px;
+  z-index: 5;
+  width: 100%;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #363131;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.App-logo {
+  height: 86px;
+  float: right;
+  margin-right: 20px;
+}
+.hamburger {
+  width: 40px;
+}
+
+@media (max-width: 1030px) {
+  .App-logo {
+    height: 60px;
+  }
+  .nav-link {
+    display: none;
+  }
+  .fa {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px 0px 5px;
+  }
+  .hamburger {
+    display: block;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 700px) {
+}

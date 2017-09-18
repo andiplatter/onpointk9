@@ -1,0 +1,14 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  color: #363131;
+  background-color: #2ff2ef;
+  width: 100%;
+  height: 70px;
+}
+.footerContainer p {
+  justify-content: center;
+  margin-top: 27px;
+  font-family: 'Questrial', sans-serif;
+  letter-spacing: 6px;
+}

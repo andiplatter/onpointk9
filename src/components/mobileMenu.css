@@ -1,0 +1,24 @@
+.menu-header {
+  width: 80px;
+  height: 140px;
+  /*background-color: #363131;*/
+  /*opacity: .7;*/
+}
+.menu-header li {
+  list-style-type: none;
+}
+.menu-link {
+  text-decoration: none;
+  /*color: white;*/
+  line-height: 25px;
+  /*background-color: white;*/
+  height: 70px;
+  position: relative;
+  right: 40px;
+}
+.mobileWhite {
+  color: white;
+}
+.mobileGray {
+  color: #363131;
+}
