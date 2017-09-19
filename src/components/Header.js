@@ -78,7 +78,7 @@ class Header extends Component {
             ? <li>
                 <a
                   className="nav-link"
-                  href="http://localhost:3001/auth/logout"
+                  href="/auth/logout"
                   style={{ color: fontColor }}
                 >
                   Logout - {this.props.user.firstName}
@@ -87,7 +87,7 @@ class Header extends Component {
             : <li>
                 <a
                   className="nav-link"
-                  href="http://localhost:3001/auth"
+                  href="/auth"
                   style={{ color: fontColor }}
                 >
                   Login

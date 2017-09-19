@@ -89,6 +89,7 @@
 .info {
   position: relative;
   bottom: 40px;
+  margin-top: 30px;
 }
 .info input {
   width: 90%;

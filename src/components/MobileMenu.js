@@ -40,7 +40,7 @@ class MobileMenu extends Component {
                 <a
                   style={{ color: this.props.color }}
                   className="menu-link"
-                  href="http://localhost:3001/auth/logout"
+                  href="/auth/logout"
                 >
                   Logout - {this.props.user.firstName}
                 </a>
@@ -49,7 +49,7 @@ class MobileMenu extends Component {
                 <a
                   style={{ color: this.props.color }}
                   className="menu-link"
-                  href="http://localhost:3001/auth"
+                  href="/auth"
                 >
                   Login
                 </a>
